@@ -23,6 +23,7 @@ services:
       - ${SERVER_PORT}
     depends_on:
       - postgres
+      # Comentario canavarr
 
   nginx:
     image: nginx:alpine
